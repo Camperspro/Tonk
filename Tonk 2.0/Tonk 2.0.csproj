@@ -1,0 +1,137 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tonk_2._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="372x352.png" />
+    <None Remove="Assets\10_c.png" />
+    <None Remove="Assets\10_d.png" />
+    <None Remove="Assets\10_h.png" />
+    <None Remove="Assets\10_s.png" />
+    <None Remove="Assets\11_c.png" />
+    <None Remove="Assets\11_d.png" />
+    <None Remove="Assets\11_h.png" />
+    <None Remove="Assets\11_s.png" />
+    <None Remove="Assets\12_c.png" />
+    <None Remove="Assets\12_d.png" />
+    <None Remove="Assets\12_h.png" />
+    <None Remove="Assets\12_s.png" />
+    <None Remove="Assets\13_c.png" />
+    <None Remove="Assets\13_d.png" />
+    <None Remove="Assets\13_h.png" />
+    <None Remove="Assets\13_s.png" />
+    <None Remove="Assets\1_c.png" />
+    <None Remove="Assets\1_d.png" />
+    <None Remove="Assets\1_h.png" />
+    <None Remove="Assets\1_s.png" />
+    <None Remove="Assets\2_c.png" />
+    <None Remove="Assets\2_d.png" />
+    <None Remove="Assets\2_h.png" />
+    <None Remove="Assets\2_s.png" />
+    <None Remove="Assets\3_c.png" />
+    <None Remove="Assets\3_d.png" />
+    <None Remove="Assets\3_h.png" />
+    <None Remove="Assets\3_s.png" />
+    <None Remove="Assets\4_c.png" />
+    <None Remove="Assets\4_d.png" />
+    <None Remove="Assets\4_h.png" />
+    <None Remove="Assets\4_s.png" />
+    <None Remove="Assets\5_c.png" />
+    <None Remove="Assets\5_d.png" />
+    <None Remove="Assets\5_h.png" />
+    <None Remove="Assets\5_s.png" />
+    <None Remove="Assets\6_c.png" />
+    <None Remove="Assets\6_d.png" />
+    <None Remove="Assets\6_h.png" />
+    <None Remove="Assets\6_s.png" />
+    <None Remove="Assets\7_c.png" />
+    <None Remove="Assets\7_d.png" />
+    <None Remove="Assets\7_h.png" />
+    <None Remove="Assets\7_s.png" />
+    <None Remove="Assets\8_c.png" />
+    <None Remove="Assets\8_d.png" />
+    <None Remove="Assets\8_h.png" />
+    <None Remove="Assets\8_s.png" />
+    <None Remove="Assets\9_c.png" />
+    <None Remove="Assets\9_d.png" />
+    <None Remove="Assets\9_h.png" />
+    <None Remove="Assets\9_s.png" />
+    <None Remove="Assets\black_joker.png" />
+    <None Remove="Assets\BlueCover.png" />
+    <None Remove="Assets\mainmenuBackground.png" />
+    <None Remove="Assets\tableBackground.png" />
+    <None Remove="BlueCover.png" />
+    <None Remove="mainmenuBackground.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\10_c.png" />
+    <Resource Include="Assets\10_d.png" />
+    <Resource Include="Assets\10_h.png" />
+    <Resource Include="Assets\10_s.png" />
+    <Resource Include="Assets\11_c.png" />
+    <Resource Include="Assets\11_d.png" />
+    <Resource Include="Assets\11_h.png" />
+    <Resource Include="Assets\11_s.png" />
+    <Resource Include="Assets\12_c.png" />
+    <Resource Include="Assets\12_d.png" />
+    <Resource Include="Assets\12_h.png" />
+    <Resource Include="Assets\12_s.png" />
+    <Resource Include="Assets\13_c.png" />
+    <Resource Include="Assets\13_d.png" />
+    <Resource Include="Assets\13_h.png" />
+    <Resource Include="Assets\13_s.png" />
+    <Resource Include="Assets\1_c.png" />
+    <Resource Include="Assets\1_d.png" />
+    <Resource Include="Assets\1_h.png" />
+    <Resource Include="Assets\1_s.png" />
+    <Resource Include="Assets\2_c.png" />
+    <Resource Include="Assets\2_d.png" />
+    <Resource Include="Assets\2_h.png" />
+    <Resource Include="Assets\2_s.png" />
+    <Resource Include="Assets\3_c.png" />
+    <Resource Include="Assets\3_d.png" />
+    <Resource Include="Assets\3_h.png" />
+    <Resource Include="Assets\3_s.png" />
+    <Resource Include="Assets\4_c.png" />
+    <Resource Include="Assets\4_d.png" />
+    <Resource Include="Assets\4_h.png" />
+    <Resource Include="Assets\4_s.png" />
+    <Resource Include="Assets\5_c.png" />
+    <Resource Include="Assets\5_d.png" />
+    <Resource Include="Assets\5_h.png" />
+    <Resource Include="Assets\5_s.png" />
+    <Resource Include="Assets\6_c.png" />
+    <Resource Include="Assets\6_d.png" />
+    <Resource Include="Assets\6_h.png" />
+    <Resource Include="Assets\6_s.png" />
+    <Resource Include="Assets\7_c.png" />
+    <Resource Include="Assets\7_d.png" />
+    <Resource Include="Assets\7_h.png" />
+    <Resource Include="Assets\7_s.png" />
+    <Resource Include="Assets\8_c.png" />
+    <Resource Include="Assets\8_d.png" />
+    <Resource Include="Assets\8_h.png" />
+    <Resource Include="Assets\8_s.png" />
+    <Resource Include="Assets\9_c.png" />
+    <Resource Include="Assets\9_d.png" />
+    <Resource Include="Assets\9_h.png" />
+    <Resource Include="Assets\9_s.png" />
+    <Resource Include="Assets\BlueCover.png" />
+    <Resource Include="Assets\mainmenuBackground.png" />
+    <Resource Include="Assets\tableBackground.png" />
+  </ItemGroup>
+
+</Project>

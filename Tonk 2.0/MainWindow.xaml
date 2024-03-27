@@ -1,0 +1,62 @@
+﻿<Window x:Class="Tonk_2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tonk_2._0"
+        mc:Ignorable="d"
+        Title="Main Menu (Tonk 2.0)" Height="650" Width="480"
+        MinWidth="600" MinHeight="600"
+        Foreground="LightSeaGreen"
+        FontFamily="Segoe UI Light" FontSize="28" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/mainmenuBackground.png" Stretch="Fill" Opacity="0.8"/>
+        </Grid.Background>
+
+        <Image Width="522" Margin="39,10,39,402" Source="Assets/logo.png"/>
+        <StackPanel Orientation="Horizontal" Margin="0,283,0,182">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="Assets/BlueCover.png" Stretch="UniformToFill" Opacity="0.8"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel/>
+
+        <Grid x:Name="HelpMenu"
+          Background="Black"
+          Grid.RowSpan="2"
+          Grid.ColumnSpan="3"
+          Visibility="Hidden">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="580" Height="620">
+                <TextBlock Text="How To Play:"
+              FontSize="72" TextAlignment="Center" Foreground="#FFBAFFC8" FontFamily="Segoe UI Variable Small Semibold" FontWeight="Bold"/>
+                <TextBlock
+             Text="•A player wins by removing all cards from their hand, or dropping with the lowest total card score. (♠ = 1 | J🂻, Q🂭, K🂮 = 10) "
+             FontSize="28"
+             TextAlignment="Center" Width="562" Margin="0,0,2,0" Height="101" TextWrapping="Wrap" Foreground="White" FontFamily="Trebuchet MS"/>
+                <TextBlock
+                Text="•At the end of each turn, choose one card to place onto the grave. The last card on the grave can be picked up."
+                FontSize="28"
+                TextAlignment="Center" Width="562" Margin="0,0,2,0" Height="105" TextWrapping="Wrap" Foreground="White" FontFamily="Trebuchet MS"/>
+                <TextBlock
+                Text="•Lose cards by either spreading, or hitting another players spread. Getting hit by someone else will skip you for one turn. "
+                FontSize="28"
+                TextAlignment="Center" Width="562" Margin="0,0,2,0" Height="108" TextWrapping="Wrap" Foreground="White" FontFamily="Trebuchet MS"/>
+                <TextBlock
+                Text="•Spreads occur when 3 cards form a combo EX: (♣3,♦3,♥3,+) or (♥2,♥3,♥4,+) These are all the basics!"
+                FontSize="28" Width="562" Margin="0,0,2,0" Height="108" TextWrapping="Wrap" Foreground="White" FontFamily="Trebuchet MS" TextAlignment="Center"/>
+                <Button Content="Return To Menu" Height="90" Width="424" FontFamily="Yu Gothic UI" FontSize="36" FontWeight="Bold" Click="Return_Click"/>
+
+            </StackPanel>
+
+        </Grid>
+
+        <Grid x:Name="MenuContent">
+            <Button x:Name="mmButton" Content="Create Table" HorizontalAlignment="Center" Margin="0,489,0,26" Width="296" Click="mmButton_Click" Background="#FF86CC87" FontFamily="Nirmala UI" FontSize="48"/>
+            <TextBox x:Name="plyInput" TextWrapping="Wrap" Margin="194,307,151,206" TextAlignment="Center" FontFamily="Impact"/>
+            <Label Content="Enter Your&#xD;&#xA;Name Here:" HorizontalAlignment="Left" Margin="10,307,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.227,0.361" Height="111" Width="179" Background="#BFFFFFFF" FontFamily="Franklin Gothic Medium" FontWeight="Bold" FontSize="33"/>
+            <Button Content="Help" Margin="454,307,0,0" VerticalAlignment="Top" Height="111" Width="126" Click="Help_Click" Background="#FFDAFFA7" FontWeight="Bold" FontSize="48" HorizontalAlignment="Left" FontFamily="Lato Semibold"/>
+        </Grid>
+
+    </Grid>
+</Window>
